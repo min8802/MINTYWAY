@@ -157,13 +157,12 @@ const TokenDetail: FC = () => {
         alignItems="center"
         my={8}
         mt={12}
-        maxH="100vh"
+        minH="100vh"
         color="white"
         gap={8}
       >
         <Flex
-          w="50%"
-          h="82vh"
+          h="100vh"
           borderRadius="lg"
           bgColor="boxColor"
           boxShadow="lg"
@@ -370,7 +369,7 @@ const TokenDetail: FC = () => {
         </Flex>
         <Flex flexDir="column" w="25%" gap={6}>
           <Flex
-            h="40vh"
+            h="55vh"
             p={4}
             borderRadius="lg"
             bgColor="boxColor"
@@ -431,7 +430,7 @@ const TokenDetail: FC = () => {
             </Flex>
           </Flex>
           <Flex
-            h="40vh"
+            h="42vh"
             p={4}
             borderRadius="lg"
             bgColor="boxColor"
