@@ -51,8 +51,8 @@ const Home: FC = () => {
             p={0}
             _hover={{ transform: "scale(1.05)" }}
             _active={{ transform: "scale(0.95)" }}
-            onMouseOver={() => setImageSrc("../public/token_create2.webp")}
-            onMouseOut={() => setImageSrc("../public/token_create.webp")}
+            onMouseOver={() => setImageSrc("/token_create2.webp")}
+            onMouseOut={() => setImageSrc("/token_create.webp")}
             onClick={() => navigator("/createToken")}
           >
             <Image
