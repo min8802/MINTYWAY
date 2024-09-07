@@ -46,7 +46,7 @@ const CreateToken: FC = () => {
         p={4}
         my={8}
         mt={12}
-        maxH="100vh"
+        minH="100vh"
         flexDir="column"
         justifyContent="flex-start"
         alignItems="center"
@@ -55,7 +55,7 @@ const CreateToken: FC = () => {
       >
         <Box
           w="80%"
-          h="85vh"
+          h="100vh"
           p={6}
           borderRadius="lg"
           bgColor="boxColor"

@@ -55,6 +55,7 @@ const Header: FC<HeaderProps> = ({ signer, setSigner, point }) => {
       borderBottomColor="white"
       borderBottomWidth="2px"
       px={4}
+      zIndex={3}
     >
       <Flex gap={2} position="relative">
         <Button

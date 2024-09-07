@@ -247,7 +247,7 @@ const Permissions: React.FC = () => {
       p={4}
       my={8}
       mt={12}
-      maxH="100vh"
+      minH="100vh"
       flexDir="column"
       justifyContent="flex-start"
       alignItems="center"
@@ -256,7 +256,7 @@ const Permissions: React.FC = () => {
     >
       <Box
         w="80%"
-        h="85vh"
+        h="100vh"
         p={6}
         borderRadius="lg"
         bg="boxColor"
