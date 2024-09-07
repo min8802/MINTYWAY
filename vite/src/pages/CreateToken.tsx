@@ -30,7 +30,7 @@ const CreateToken: FC = () => {
     if (selectedTemplateIndex !== null) {
       onOpen();
     } else {
-      alert("템플릿이 선택되지 않았습니다.");
+      showToast("템플릿이 선택되지 않았습니다.", "", "error");
     }
   };
 
@@ -154,7 +154,7 @@ const CreateToken: FC = () => {
                       alignItems="center"
                     >
                       <Text fontWeight="bold" fontSize="20px">
-                        어떤 사람들이 사용하는지에 대한 설명
+                        {v.description}
                       </Text>
                     </Flex>
                   </Flex>

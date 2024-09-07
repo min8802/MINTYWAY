@@ -75,21 +75,21 @@ const CreateTokenModal: FC<CreateTokenModalProps> = ({
   };
 
   const handleTokenCreation = (
-    newToken: INewToken,
-    newTokenAddress: string,
+    // newToken: INewToken,
+    // newTokenAddress: string,
     templateIndex: number
   ) => {
-    const token: IToken = {
-      tokenAddress: newTokenAddress,
-      token: newToken,
-    };
+    // const token: IToken = {
+    //   tokenAddress: newTokenAddress,
+    //   token: newToken,
+    // };
 
-    const storedNewTokenList = JSON.parse(
-      localStorage.getItem("newTokens") || "[]"
-    );
+    // const storedNewTokenList = JSON.parse(
+    //   localStorage.getItem("newTokens") || "[]"
+    // );
 
-    const updateNewTokenList = [...storedNewTokenList, token]; // 새 토큰 객체 저장
-    localStorage.setItem("newTokens", JSON.stringify(updateNewTokenList));
+    // const updateNewTokenList = [...storedNewTokenList, token]; // 새 토큰 객체 저장
+    // localStorage.setItem("newTokens", JSON.stringify(updateNewTokenList));
 
     showToast(
       `${templateData[templateIndex].template} 생성이 완료되었습니다.`,
@@ -98,6 +98,7 @@ const CreateTokenModal: FC<CreateTokenModalProps> = ({
     );
 
     onClose();
+    console.log(templateIndex)
   };
 
   const onClickCreateToken = async () => {
@@ -114,6 +115,7 @@ const CreateTokenModal: FC<CreateTokenModalProps> = ({
     ) {
       showToast("모든 필드를 올바르게 입력해 주세요.", "", "error");
       setLoading(false);
+      return
     }
 
     const newToken: INewToken = {
@@ -130,7 +132,8 @@ const CreateTokenModal: FC<CreateTokenModalProps> = ({
         newToken,
         templateIndex
       );
-      handleTokenCreation(newToken, newTokenAddress!, templateIndex);
+      if(!newTokenAddress) return;
+      handleTokenCreation(templateIndex);
     } catch (error) {
       console.error(error);
       showToast(
