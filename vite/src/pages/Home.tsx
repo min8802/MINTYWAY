@@ -4,7 +4,7 @@ import NewTokenCard from "../components/NewTokenCard";
 import { useNavigate } from "react-router-dom";
 
 const Home: FC = () => {
-  const [imageSrc, setImageSrc] = useState("../public/token_create.webp");
+  const [imageSrc, setImageSrc] = useState("/token_create.webp");
   const navigator = useNavigate();
 
   return (
@@ -73,7 +73,7 @@ const Home: FC = () => {
         </Flex>
         <Flex flexGrow={0.3} justifyContent="center" alignItems="center">
           <Image
-            src="../public/coin.png"
+            src="/coin.png"
             alt="coin"
             width="400px"
             height="400px"
