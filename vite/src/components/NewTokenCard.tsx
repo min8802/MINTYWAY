@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dummyData from "../data/dummyData.json";
-import { useNavigate } from "react-router-dom";
 
 const sliderSettings = {
   dots: false,
@@ -18,11 +17,7 @@ const sliderSettings = {
 };
 
 const NewTokenCard: FC = () => {
-  const navigate = useNavigate();
 
-  const onClickToken = (token: IToken) => {
-    navigate(`/token/${token.contractAddress}`, { state: token });
-  };
 
   return (
     <Flex w="70%" flexDir="column" justifyContent="center">
@@ -39,7 +34,6 @@ const NewTokenCard: FC = () => {
             _hover={{ borderColor: "teal" }}
             h="115px"
             maxW="155px"
-            onClick={() => onClickToken(v)}
           >
             <Flex flexDir="column" alignItems="center">
               <Image
