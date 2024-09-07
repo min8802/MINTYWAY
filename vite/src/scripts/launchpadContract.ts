@@ -151,12 +151,13 @@ export async function isSubscribe(
 
 export async function buyTicket(
   tokenAddress: string,
+  sender: string,
   ticketPrice: number,
   ticketAmount: number
 ) {
   try {
     const signer = await getSigner();
-
+    console.log(sender)
     if (!signer) return;
     console.log("buyTicket signer : ", signer.address);
 
