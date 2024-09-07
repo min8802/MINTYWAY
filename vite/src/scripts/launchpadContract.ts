@@ -151,7 +151,6 @@ export async function isSubscribe(
 
 export async function buyTicket(
   tokenAddress: string,
-  sender: string,
   ticketPrice: number,
   ticketAmount: number
 ) {

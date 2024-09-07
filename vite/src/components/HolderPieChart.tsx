@@ -64,7 +64,7 @@ const HolderPieChart: React.FC<HolderPieChartProps> = ({ holders }) => {
             paddingAngle={5}
             dataKey="value"
           >
-            {data.map((entry, index) => (
+            {data.map((_, index) => (
               <Cell
                 key={`cell-${index}`}
                 fill={Colors[index % Colors.length]}

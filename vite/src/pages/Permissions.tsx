@@ -164,11 +164,6 @@ const Permissions: React.FC = () => {
     }
   }
 
-  const handleOpenRoleModal = (tokenName: string, roleType: string) => {
-    setSelectedTokenName(tokenName);
-    setSelectedRoleType(roleType);
-    onOpen();
-  };
 
   const handleAddRole = () => {
     handleRoleAction("Give", selectedRoleType, selectedTokenName, userAddress);
@@ -235,13 +230,6 @@ const Permissions: React.FC = () => {
     }
   };
 
-  const handleFreezeAction = (action: string, tokenName: string) => {
-    console.log(`${action} freeze for ${tokenName}`);
-  };
-
-  const handleOwnerAction = (action: string, tokenName: string) => {
-    console.log(`${action} owner for ${tokenName}`);
-  };
 
   const handleCopyAddress = (address: string) => {
     navigator.clipboard.writeText(address);

@@ -27,7 +27,7 @@ const CustomPieTooltip: React.FC<CustomPieTooltipProps> = ({
         </Text>
         <Text fontSize="md" color="white" fontWeight="bold">
           {payload[0].value.toLocaleString()} (
-          {payload[0].payload.percentage.toString().slice(0, 4)}
+          {payload[0].percentage.toString().slice(0, 4)}
           %)
         </Text>
       </Box>

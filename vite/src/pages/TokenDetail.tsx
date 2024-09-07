@@ -181,7 +181,6 @@ const TokenDetail: FC = () => {
             <Image
               position="absolute"
               top={-12}
-              src={foundToken?.token.image}
               alt={token.name}
               border="4px"
               borderColor="teal"

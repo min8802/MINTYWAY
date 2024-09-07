@@ -13,7 +13,7 @@ import Search from "../components/Search";
 import { truncateAddress } from "../utils/formatting";
 import useToastNotification from "../hooks/useToastNotification";
 // import dummyData from "../data/dummyData.json";
-import { CopyAddressButton, ExternalLinkButton } from "../utils/iconButtons";
+import { CopyAddressButton } from "../utils/iconButtons";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import { getWalletTokens, startMoralis } from "../lib/moralis";
 import { OutletContext } from "../components/Layout";
