@@ -66,12 +66,12 @@ const MyPage: FC = () => {
       alignItems="center"
       my={8}
       mt={12}
-      maxH="100vh"
+      minH="100vh"
       color="white"
     >
       <Box
         w="80%"
-        h="82vh"
+        h="100vh"
         p={6}
         borderRadius="lg"
         bgColor="boxColor"
