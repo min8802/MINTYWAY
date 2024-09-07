@@ -1,0 +1,33 @@
+[
+  {
+    "image": "/coin.png",
+    "template": "Meme 토큰",
+    "price": "0.0002 ETH",
+    "properties": [{ "key": "Supply 제한", "description": "Supply 설명" }]
+  },
+  {
+    "image": "/coin.png",
+    "template": "Basic 토큰",
+    "price": "0.02 ETH",
+    "properties": [
+      { "key": "Supply 제한 없음", "description": "Supply 설명" },
+      { "key": "Ownership", "description": "Ownership 설명" },
+      { "key": "Mintable", "description": "Mintable 설명" },
+      { "key": "Burnable", "description": "Burnable 설명" }
+    ]
+  },
+  {
+    "image": "/coin.png",
+    "template": "Pro 토큰",
+    "price": "0.1 ETH",
+    "properties": [
+      { "key": "Supply 제한 없음", "description": "Supply 설명" },
+      { "key": "Ownership", "description": "Ownership 설명" },
+      { "key": "Mintable", "description": "Mintable 설명" },
+      { "key": "Burnable", "description": "Burnable 설명" },
+      { "key": "Freeze", "description": "Freeze 설명" },
+      { "key": "Blacklist", "description": "Blacklist 설명" },
+      { "key": "Recover", "description": "Recover 설명" }
+    ]
+  }
+]

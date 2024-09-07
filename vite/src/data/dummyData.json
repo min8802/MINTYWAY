@@ -1,0 +1,142 @@
+[
+  {
+    "tokenName": "Compound",
+    "contractAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "permissions": {
+      "발행권한": true,
+      "소각권한": true,
+      "freeze": true,
+      "블랙리스트권한": true,
+      "복구권한": true
+    },
+    "imageUrl": "/coins/compound.png",
+    "link": "https://etherscan.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888"
+  },
+  {
+    "tokenName": "Curve",
+    "contractAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "permissions": {
+      "발행권한": false,
+      "소각권한": true,
+      "freeze": false,
+      "블랙리스트권한": true,
+      "복구권한": true
+    },
+    "imageUrl": "/coins/curve.png",
+    "link": "https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52"
+  },
+  {
+    "tokenName": "LidoFinance",
+    "contractAddress": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "permissions": {
+      "발행권한": true,
+      "소각권한": true,
+      "freeze": true,
+      "블랙리스트권한": false,
+      "복구권한": false
+    },
+    "imageUrl": "/coins/ldo.png",
+    "link": "https://etherscan.io/address/0x5a98fcbea516cf06857215779fd812ca3bef1b32"
+  },
+  {
+    "tokenName": "Neiro Ethereum",
+    "contractAddress": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637",
+    "permissions": {
+      "발행권한": false,
+      "소각권한": false,
+      "freeze": false,
+      "블랙리스트권한": true,
+      "복구권한": false
+    },
+    "imageUrl": "/coins/Neiro.png",
+    "link": "https://etherscan.io/address/0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+  },
+  {
+    "tokenName": "Compound",
+    "contractAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "permissions": {
+      "발행권한": true,
+      "freeze": false,
+      "owner": true
+    },
+    "imageUrl": "/coins/compound.png",
+    "link": "https://etherscan.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888"
+  },
+  {
+    "tokenName": "Curve",
+    "contractAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "permissions": {
+      "발행권한": false,
+      "freeze": false,
+      "owner": false
+    },
+    "imageUrl": "/coins/curve.png",
+    "link": "https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52"
+  },
+  {
+    "tokenName": "LidoFinance",
+    "contractAddress": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "permissions": {
+      "발행권한": false,
+      "freeze": true,
+      "owner": true
+    },
+    "imageUrl": "/coins/ldo.png",
+    "link": "https://etherscan.io/address/0x5a98fcbea516cf06857215779fd812ca3bef1b32"
+  },
+  {
+    "tokenName": "Neiro Ethereum",
+    "contractAddress": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637",
+    "permissions": {
+      "발행권한": true,
+      "freeze": true,
+      "owner": true
+    },
+    "imageUrl": "/coins/Neiro.png",
+    "link": "https://etherscan.io/address/0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+  },
+  {
+    "tokenName": "Compound",
+    "contractAddress": "0xc00e94cb662c3520282e6f5717214004a7f26888",
+    "permissions": {
+      "발행권한": true,
+      "freeze": false,
+      "owner": true
+    },
+    "imageUrl": "/coins/compound.png",
+    "link": "https://etherscan.io/address/0xc00e94cb662c3520282e6f5717214004a7f26888"
+  },
+  {
+    "tokenName": "Curve",
+    "contractAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "permissions": {
+      "발행권한": false,
+      "freeze": false,
+      "owner": false
+    },
+    "imageUrl": "/coins/curve.png",
+    "link": "https://etherscan.io/address/0xD533a949740bb3306d119CC777fa900bA034cd52"
+  },
+  {
+    "tokenName": "LidoFinance",
+    "contractAddress": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "permissions": {
+      "발행권한": false,
+      "freeze": true,
+      "owner": true
+    },
+    "imageUrl": "/coins/ldo.png",
+    "link": "https://etherscan.io/address/0x5a98fcbea516cf06857215779fd812ca3bef1b32"
+  },
+  {
+    "tokenName": "Neiro Ethereum",
+    "contractAddress": "0xee2a03aa6dacf51c18679c516ad5283d8e7c2637",
+    "permissions": {
+      "발행권한": true,
+      "freeze": true,
+      "owner": true
+    },
+    "imageUrl": "/coins/Neiro.png",
+    "link": "https://etherscan.io/address/0xee2a03aa6dacf51c18679c516ad5283d8e7c2637"
+  }
+]
